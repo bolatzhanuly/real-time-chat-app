@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import axios from "axios";
 
-const EventSource = () => {
+const EventSourceComponent = () => {
     const [messages, setMessages] = useState([]);
     const [value, setValue] = useState('');
 
@@ -44,4 +44,4 @@ const EventSource = () => {
     );
 };
 
-export default EventSource;
+export default EventSourceComponent;
